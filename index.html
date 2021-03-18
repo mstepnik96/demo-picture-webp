@@ -6,8 +6,12 @@
     <title>Picture Element with Webp Format</title>
 </head>
 <body>
+    <img src="img/spring.webp" alt="Spring Tree and Sky">
 
-
+    <picture>
+        <source srcset="img/spring.webp" type="image/webp">
+        <img src="img/spring.jpg" alt="Spring Tree and Sky">
+    </picture>
     
 </body>
 </html>
